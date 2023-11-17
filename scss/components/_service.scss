@@ -1,0 +1,67 @@
+.service{
+    background: $section-bg;
+
+    .container{
+        padding: 96px 15px;
+        @include mobile {
+            text-align: center;
+			flex-direction: column;
+			padding: 70px 15px;
+		}
+       
+    }
+
+    &__list{
+        display: flex;
+        gap: 30px;
+        @include tablet {
+            flex-direction: column;
+        }
+
+        .list{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 32px;
+            gap: 8px;
+            border-radius: 12px;
+            background: $body-bg;
+
+            &__title{
+                @extend %titledecoration;
+                margin-inline: auto;
+                margin-bottom: 16px;
+                margin-top: 32px;
+                max-width: 223px;
+                font-size: 26px;
+                line-height: 41px;
+            }
+
+            &__text{
+                @extend %textdecoration;             
+            }
+        }
+    }
+
+    &__title{
+        @extend %titledecoration;
+        margin-bottom: 24px;
+        @include tablet {
+            text-align: center;
+        }
+		
+		span {
+			color: $primary-color;
+		}
+    }
+
+    &__text{
+        @extend %textdecoration;
+        max-width: 461px;
+        margin-bottom: 56px;
+        @include tablet {
+            margin-inline: auto;
+            text-align: center;
+        }
+    }
+}
