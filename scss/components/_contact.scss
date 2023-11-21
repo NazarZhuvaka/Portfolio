@@ -1,16 +1,16 @@
 .contact{
 
     .container{
-        padding: 96px 15px;
+        padding: 96rem 15rem;
 
         &-adresa{
             display: flex;
             align-items: center;
-            gap: 223px;
+            gap: 223rem;
 
             @include tablet-small{
                 flex-direction: column;
-                gap: 70px;
+                gap: 70rem;
             }
         }
     }
@@ -23,7 +23,7 @@
 
     &__title{
         @extend %titledecoration;
-        margin-bottom: 24px;
+        margin-bottom: 24rem;
         text-align: center;
 		
 		span {
@@ -35,23 +35,23 @@
         @extend %textdecoration;
         margin-inline: auto;
         text-align: center;
-        max-width: 685px;
-        margin-bottom: 56px;  
+        max-width: 685rem;
+        margin-bottom: 56rem;  
     }
 
     .adresa__welcome{
-        max-width: 440px;
-        margin-bottom: 16px;
+        max-width: 440rem;
+        margin-bottom: 16rem;
         color: $primary-color;
-        font-size: 16px;
+        font-size: 16rem;
         font-weight: 700;
-        line-height: 41px;
+        line-height: 41rem;
 
         span{
             color:$white;
-            font-size: 16px;
+            font-size: 16rem;
             font-weight: 400;
-            line-height: 41px;
+            line-height: 41rem;
         }
 
     }
@@ -60,41 +60,43 @@
         display: flex;
         flex-direction: column;
         width: 60%;
-        gap: 32px;
+        gap: 32rem;
 
         input{
-            padding: 10px 18px;
-            max-width: 350px;
-            height: 63px;
+            padding: 10rem 18rem;
+            max-width: 350rem;
+            height: 63rem;
             background: #1F2937;
             color:$white;
             outline: 0;
             flex-shrink: 0;
             border: none;
-            border-radius: 15px;
+            border-radius: 15rem;
+            font-family: $ff;
 
             &::placeholder{
                 color: $white;
-                font-size: 15px;
+                font-size: 15rem;
                 font-weight: 400;
             }
         }
 
         textarea{
-            padding: 10px 18px;
-            max-width: 540px;
-            min-height: 166px; 
-            max-height: 270px; 
+            padding: 10rem 18rem;
+            max-width: 540rem;
+            min-height: 166rem; 
             color:$white;
             outline: 0; 
             flex-shrink: 0;
             background: rgb(31, 41, 55);
             border: none;
-            border-radius: 15px;
+            border-radius: 15rem;
+            font-family: $ff;
+            resize: none;
 
             &::placeholder{
                 color: $white;
-                font-size: 16px;
+                font-size: 16rem;
                 font-weight: 400;
             }
         }

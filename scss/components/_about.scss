@@ -3,19 +3,19 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 96px 9px;
-        gap: 89px;
+		padding: 96rem 9rem;
+        gap: 89rem;
 
 		@include mobile {
 			flex-direction: column;
-            padding: 60px 20px;
+            padding: 60rem 40rem;
 		}
 	}
 
     &__img {
         display: flex;
         position: relative;
-        margin-left: 44px;
+        margin-left: 44rem;
 		flex-shrink: 0;
 
 		@include tablet {
@@ -28,19 +28,19 @@
         
         &-backdrop{
         position: absolute;
-        top: 10px;
-        right: 35px;
+        top: 10rem;
+        right: 35rem;
         width: 100%;
-        height: calc(100% + 27px);
-        border-radius: 24px;
-        border: 16px solid $primary-color;
+        height: calc(100% + 27rem);
+        border-radius: 24rem;
+        border: 16rem solid $primary-color;
         }
 
 	}
 
     &__title{
         @extend %titledecoration;
-        margin-bottom: 32px;
+        margin-bottom: 32rem;
 		
 		span {
 			color: $primary-color;
@@ -49,14 +49,14 @@
 
     &__text{
         @extend %textdecoration;
-        max-width: 461px;
-        margin-bottom: 18px;
+        max-width: 461rem;
+        margin-bottom: 18rem;
     }
 
     &__desc{
         @extend %textdecoration;
-        max-width: 509px;
-        margin-bottom: 40px;
+        max-width: 509rem;
+        margin-bottom: 40rem;
     }
 
     

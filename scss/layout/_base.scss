@@ -1,3 +1,19 @@
+html{
+	font-size: 1px;
+}
+
+@include tablet-small{
+	html{
+		font-size: 0.9px;
+	}
+}
+
+@include mobile{
+	html{
+		font-size: 0.8px;
+	}
+}
+
 body {
 	font-family: $ff;
 	background: $body-bg;

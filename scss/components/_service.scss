@@ -2,18 +2,18 @@
     background: $section-bg;
 
     .container{
-        padding: 96px 15px;
+        padding: 96rem 15rem;
         @include mobile {
             text-align: center;
 			flex-direction: column;
-			padding: 70px 15px;
+			padding: 70rem 15rem;
 		}
        
     }
 
     &__list{
         display: flex;
-        gap: 30px;
+        gap: 30rem;
         @include tablet {
             flex-direction: column;
         }
@@ -22,19 +22,19 @@
             display: flex;
             flex-direction: column;
             text-align: center;
-            padding: 32px;
-            gap: 8px;
-            border-radius: 12px;
+            padding: 32rem;
+            gap: 8rem;
+            border-radius: 12rem;
             background: $body-bg;
 
             &__title{
                 @extend %titledecoration;
                 margin-inline: auto;
-                margin-bottom: 16px;
-                margin-top: 32px;
-                max-width: 223px;
-                font-size: 26px;
-                line-height: 41px;
+                margin-bottom: 16rem;
+                margin-top: 32rem;
+                max-width: 223rem;
+                font-size: 26rem;
+                line-height: 41rem;
             }
 
             &__text{
@@ -45,7 +45,7 @@
 
     &__title{
         @extend %titledecoration;
-        margin-bottom: 24px;
+        margin-bottom: 24rem;
         @include tablet {
             text-align: center;
         }
@@ -57,8 +57,8 @@
 
     &__text{
         @extend %textdecoration;
-        max-width: 461px;
-        margin-bottom: 56px;
+        max-width: 461rem;
+        margin-bottom: 56rem;
         @include tablet {
             margin-inline: auto;
             text-align: center;
